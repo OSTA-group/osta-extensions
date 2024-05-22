@@ -1,1 +1,36 @@
-
+[
+  {
+    "name": "Beveren Verbind",
+    "description": "Beveren Verbind is een handige extensie die uitgebreide informatie biedt over de bezienswaardigheden in Beveren. Met Beveren Verbind kun je gemakkelijk de historische en culturele pareltjes van Beveren ontdekken. Of je nu een inwoner bent die meer wil weten over zijn eigen stad of een toerist die de verborgen schatten wil verkennen, deze extensie is je ideale gids. Van historische monumenten tot moderne attracties, Beveren Verbind heeft het allemaal.",
+    "type": "web",
+    "area": "Oost-Vlaanderen, België",
+    "languages": "Nederlands",
+    "properties": {
+      "urlFilterable": "false"
+    },
+    "versions": [
+      {
+        "version": 1,
+        "url": "https://osta.bauwendr.com/beveren-verbind-landmarks.json",
+        "configurationUrl": null,
+        "fileHash": null
+      }
+    ]
+  },
+  {
+    "name": "Wikipedia",
+    "description": "The Wikipedia extension is your gateway to a world of knowledge, offering access to Wikipedia articles based on your location or any area you choose to explore. Whether you're at home or traveling, this extension allows you to discover fascinating information about nearby landmarks, historical sites, and points of interest.",
+    "type": "python",
+    "area": "Global",
+    "languages": "All",
+    "properties": {},
+    "versions": [
+      {
+        "version": 1,
+        "url": "https://osta.bauwendr.com/wikipedia-extension.jspy",
+        "configurationUrl": "https://osta.bauwendr.com/wikipedia-extension-config.json",
+        "fileHash": "55a40fd5a64f5a2cbfec8281b07eabd7"
+      }
+    ]
+  }
+]
