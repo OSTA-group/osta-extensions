@@ -179,3 +179,8 @@ When submitting your python extension, make sure to provide the following inform
 [2]: https://jspython.dev/docs/intro
 [3]: https://github.com/BauwenDR/osta-wikipedia-extension
 [4]: https://axios-http.com/docs/intro
+
+## OSTA Projects
+- [OSTA App](https://github.com/BauwenDR/osta)
+- [OSTA Marketplace](https://github.com/BauwenDR/osta-marketplace)
+- [OSTA Wikipedia Extension](https://github.com/BauwenDR/osta-wikipedia-extension)
