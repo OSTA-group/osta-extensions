@@ -1,4 +1,4 @@
-# osta-extensions
+# OSTA Extensions
 This project hosts a list of all available extensions in the OSTA marketplace alongside tools for creating, publishing and testing your own extensions.
 
 # Creating a new extension
