@@ -27,8 +27,8 @@
     "versions": [
       {
         "version": 1,
-        "url": "https://osta.bauwendr.com/wikipedia-extension.jspy",
-        "configurationUrl": "https://osta.bauwendr.com/wikipedia-extension-config.json",
+        "url": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.0/wikipedia-extension.jspy",
+        "configurationUrl": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.0/variables.json",
         "fileHash": "55a40fd5a64f5a2cbfec8281b07eabd7"
       }
     ]
