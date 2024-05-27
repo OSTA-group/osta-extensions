@@ -113,7 +113,7 @@ When submitting your web-api extension, make sure to provide the following infor
 ### Python extension
 If the API doesn't return the data in the required format, whether due to lack of ownership or the inability to update the API, you have the option to create your own converter using Python code.
 
-Our python extension adapter utilises [JSPython][2] to interpret the written Python code. This interpreter does not fully support all Python functionality, so make sure to read the documentation carefully. You can also refer to our [wikipedia extension][3] as an example.
+Our python extension adapter utilises [JSPython][3] to interpret the written Python code. This interpreter does not fully support all Python functionality, so make sure to read the documentation carefully. You can also refer to our [wikipedia extension][2] as an example.
 
 #### Available libraries
 Web requests in our app are done using the [axios][4] library. This library is fully accessible in your Python code. A function fetching data from a test api might might look something like this:
@@ -150,7 +150,7 @@ return get_language_variable()
 ```
 
 #### Testing
-In order to test a python extension, we provide a simple testing app, this can be found in the extensions project [here][1]. This is a simple react app that provides the same functionality for extensions as the app.
+In order to test a python extension, we provide a simple testing app, this can be found in the extensions project [here][1], under the ExtensionTester directory. This is a simple react app that provides the same functionality for extensions as the app.
 
 To run the project, follow these steps:
 
@@ -176,8 +176,8 @@ When submitting your python extension, make sure to provide the following inform
 - Area: the area the extension applies to (use global if there is no specific region)
 
 [1]: https://github.com/BauwenDR/osta-extensions
-[2]: https://jspython.dev/docs/intro
-[3]: https://github.com/BauwenDR/osta-wikipedia-extension
+[2]: https://github.com/BauwenDR/osta-wikipedia-extension
+[3]: https://jspython.dev/docs/intro
 [4]: https://axios-http.com/docs/intro
 
 ## OSTA Projects
