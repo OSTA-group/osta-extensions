@@ -43,7 +43,7 @@
     "versions": [
       {
         "version": 1,
-        "url": "https://raw.githubusercontent.com/deregtervictor/Custom-Extensions/main/carspotting-guide-antwerp.json",
+        "url": "https://raw.githubusercontent.com/deregtervictor/osta-contribute-extensions/main/carspotting-guide-antwerp.json",
         "configurationUrl": "null",
         "fileHash": "null"
       }
