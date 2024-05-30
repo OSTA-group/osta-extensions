@@ -1,13 +1,13 @@
-✨ What does your extension provide?
+## ✨ What does your extension provide?
 What information does your extensions provide. Give here some more explenation of your extension.
 
-🧪 Testing
+## 🧪 Testing
 How do you know your extensions is safe to use?
 
-✔ Prove to us that your extension works.
+## ✔ Prove to us that your extension works.
 Provide screenshots with the usage of our test application.
 
-📃Checklist
+## 📃 Checklist
 1) Fill in all necessary fields:
 - [ ] Make sure you’ve provided information for essential fields such as the extension’s name, description, and type.
 - [ ] Double-check that you haven’t missed any required properties.
