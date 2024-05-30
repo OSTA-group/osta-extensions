@@ -32,5 +32,21 @@
         "fileHash": "55a40fd5a64f5a2cbfec8281b07eabd7"
       }
     ]
+  },
+  {
+    "name": "Antwerpen Carspotting Gids",
+    "description": "De Antwerpen Carspotting Gids die startende carspotters helpt om plaatsen te ontdekken waar mogelijk luxueuze auto's geparkeerd staan.",
+    "type": "web",
+    "area": "Antwerpen",
+    "languages": "Nederlands",
+    "properties": {},
+    "versions": [
+      {
+        "version": 1,
+        "url": "https://raw.githubusercontent.com/deregtervictor/osta-contribute-extensions/main/carspotting-guide-antwerp.json",
+        "configurationUrl": "null",
+        "fileHash": "null"
+      }
+    ]
   }
 ]
