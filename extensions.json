@@ -52,8 +52,8 @@
       {
         "version": 1,
         "url": "https://raw.githubusercontent.com/deregtervictor/osta-contribute-extensions/main/carspotting-guide-antwerp.json",
-        "configurationUrl": "null",
-        "fileHash": "null"
+        "configurationUrl": null,
+        "fileHash": null
       }
     ]
   }
