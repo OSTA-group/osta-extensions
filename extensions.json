@@ -30,6 +30,12 @@
         "url": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.0/wikipedia-extension.jspy",
         "configurationUrl": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.0/variables.json",
         "fileHash": "55a40fd5a64f5a2cbfec8281b07eabd7"
+      },
+      {
+        "version": 2,
+        "url": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.1/wikipedia-extension.jspy",
+        "configurationUrl": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.1/variables.json",
+        "fileHash": "9106ce610233b6840d774cd596e0dbb1"
       }
     ]
   },
@@ -39,7 +45,9 @@
     "type": "web",
     "area": "Antwerpen",
     "languages": "Nederlands",
-    "properties": {},
+    "properties": {
+      "urlFilterable": "false"
+    },
     "versions": [
       {
         "version": 1,
