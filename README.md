@@ -11,7 +11,7 @@ A Python extension, on the other hand, is more powerful but also more complex. T
 ## Parameters
 The user can select an area on the map, this area will be sent to each extension. How this is done is specified separately for each extension type (see [Instructions per extension type](#instructions-per-extension-type)).
 
-The 2 parameters sent to each extension are: a bounding box (top left and bottom right coordinates, and a bounding circle, the centre coordinates and a radius in kilometres.
+The 2 parameters sent to each extension are: a bounding box (top left and bottom right coordinates), and a bounding circle (the centre coordinates and a radius in kilometres).
 
 We recommend using the bounding box as this closely matches what the user selected, while the circle reaches a bit outside of the selected area. Some api’s might only support the circular selection, but try to use the bounding box where possible.
 
@@ -23,7 +23,7 @@ Each extension should return an array of SourceInformation. Any landmarks in thi
 - __description__ (string): Description or additional information about the landmark.
 - __types__ (string[]): Types or categories associated with the landmark (e.g., historical, natural, cultural).
 
-The 'types' field is required, but the array length can be 0 for extensions that do not provide landmark type information. If there is already a landmark at a certain location, the types of the existing and new landmarks will be concatenated.
+The 'types' field is required, but the array can be of length 0 for extensions that do not provide landmark type information. If there is already a landmark at a certain location, the types of the existing and new landmarks will be concatenated.
 
 The returned data should look like this:
 ```json
@@ -96,7 +96,7 @@ The extensions variables will be sent to the API as query parameters. If you bui
 
 If we have a local web API that also accepts a language parameter, our network request would look like this:
 ```
-http://locahost:8080/landmarks?language=en
+http://localhost:8080/landmarks?language=en
 ```
 
 #### Submitting web-api extensions
