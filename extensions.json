@@ -36,6 +36,12 @@
         "url": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.1/wikipedia-extension.jspy",
         "configurationUrl": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.0.1/variables.json",
         "fileHash": "9106ce610233b6840d774cd596e0dbb1"
+      },
+      {
+        "version": 3,
+        "url": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.1.0/wikipedia-extension.jspy",
+        "configurationUrl": "https://raw.githubusercontent.com/BauwenDR/osta-wikipedia-extension/v1.1.0/variables.json",
+        "fileHash": "571a9610218a3ab021bf3350bee6b60f"
       }
     ]
   },
